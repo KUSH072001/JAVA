@@ -4,16 +4,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-//        Write a Java program to get a number from the user and print whether it is
-//        positive or negative.
+//     Question 2 : Finish the following code so that it prints You have a fever if your temperature
+//is above 100 and otherwise prints You don't have a fever.
 
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter a number");
-        int number=sc.nextInt();
-                if(number>0){
-                    System.out.println(number+" number is positive");
-                } else if (number<0) {
-                    System.out.println(number+" number is negative");
-                }
+        double temp = 1;
+        System.out.println(temp>100?" temp is more you have fever  ": "you don't have fever");
+
     }
 }
