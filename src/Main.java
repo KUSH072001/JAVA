@@ -10,7 +10,7 @@ public class Main {
         final float pi=3.14f;// and dint't forget to write a we use use float use should use (f)
         float radius=2f;
         area=pi*radius*radius;
-        System.out.println("area of circle " + area);
+        System.out.println(" area of circle " + area);
 
 
     }
