@@ -4,15 +4,21 @@
 public class Main {
     public static void main(String[] args) {
 
-//   1
-//12
-//123
-//1234
-//12345
+//a
+//ab
+//abc
+//abcd
+//abcde
 
-            for(int i=1;i<=5;i++){
-                for(int j=1;j<=i;j++){
-                    System.out.print(j);
+
+
+char ch='a';
+
+
+        for(char i=1;i<=6;i++){
+                for(char j=1;j<i;j++){
+                    System.out.print(ch);
+                    ch++;
                 }
                 System.out.println(" ");
             }
