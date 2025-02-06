@@ -4,11 +4,33 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-//     Question 2 : Finish the following code so that it prints You have a fever if your temperature
-//is above 100 and otherwise prints You don't have a fever.
+//     Question 3 : Write a Java program to input week number(1-7) and print day of week name
+//using switch case.
+        Scanner sc=new Scanner(System.in);
 
-        double temp = 1;
-        System.out.println(temp>100?" temp is more you have fever  ": "you don't have fever");
+    int day=sc.nextInt();
+        switch (day){
+            case 1:
+                System.out.println("monday");
+            break;
+            case 2:
+                System.out.println("tuesday");
+            break;
+            case 3:
+                System.out.println("thirsday");
+                break;
+            case  4:
+                System.out.println("wednesday");
+                break;
+            case 5:
+                System.out.println("friday");
+                break;
+            case 6:
+                System.out.println("sunday");
+            default:
+                System.out.println("invalid input");
+
+        }
 
     }
 }
