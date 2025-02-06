@@ -3,16 +3,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-       Scanner sc=new Scanner(System.in);
-        System.out.println("number1");
-       int n1=sc.nextInt();
-        System.out.println("number2");
-       int n2=sc.nextInt();
+//      Area of circle
+//      formula   3.14*r*r
+       float area;
+      // we use final for the value of pi does not change
+        final float pi=3.14f;// and dont forget to write a we use use float use should use (f)
+        float radius=2f;
+        area=pi*radius*radius;
+        System.out.println("area of circle "+area);
 
-       float Average=(n1+n2)/2f;
-        System.out.println(Average);
-
-        sc.close();
 
     }
 }
