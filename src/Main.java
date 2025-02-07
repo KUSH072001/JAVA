@@ -4,26 +4,19 @@
 public class Main {
     public static void main(String[] args) {
 
-//a
-//ab
-//abc
-//abcd
-//abcde
 
 
-
-char ch='a';
-
-
-        for(char i=1;i<=6;i++){
-                for(char j=1;j<i;j++){
-                    System.out.print(ch);
-                    ch++;
-                }
-                System.out.println(" ");
-            }
-
-
-
+        Student st=new Student( );
+        System.out.println(st.name);
+        System.out.println(st.age);
     }
+}
+
+
+class Student{
+
+    String name="krishna";
+    int age=12;
+
+
 }
