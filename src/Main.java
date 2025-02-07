@@ -19,7 +19,7 @@ public class Main {
 class Student1{
 
     String name="krishna";
-    int age=12;
+    int age=121;
 
 
 }
