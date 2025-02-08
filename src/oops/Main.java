@@ -1,12 +1,21 @@
 package oops;
 
 public class Main {
-    public static void main(String[] args) {
 
-        Student1 s1=new Student1();
-        Student2 s2=new Student2();
-        System.out.println(s1.name);
-        System.out.println(s2.name);
+    public static void main(String[] args) {
+//Local variable
+        int b=20;
+    display();
+        int age=33;
+        System.out.println(b+" "+ age);
 
     }
+    public static  void display(){
+        String name="om";
+        System.out.println("display method");
+    }
+
+
+
+
 }
