@@ -20,3 +20,22 @@ what is data type
 it can specify three things
 type of data varibale hold
 size of memory location
+
+
+what is object : object is a instance of calss
+menaing memory space allocation at run time
+
+------------------
+        what is instance- (copy)
+        meaning of creating object ?::: to occupy the  memory space
+
+  3..      to create object what are the the things we need
+        1.. class
+        2.. new
+        3.. constructor
+
+
+        when local variable is created
+        local variable is created at the time of method call
+        when local variable destroyed --- when method stop the execution the local variable is destroyed
+
