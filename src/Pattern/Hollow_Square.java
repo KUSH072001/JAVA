@@ -10,8 +10,8 @@ public class Hollow_Square {
 //        123
 //        1234
 
-        for( int i=1;i<=4;i++){
-    for(int j=1;j<=i;j++){
+        for( int i=4;i>=1;i--){
+    for(int j=4;j>=i;j--){
         System.out.print(j);
 
     }
