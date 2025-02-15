@@ -1,29 +1,27 @@
 package Inheritance;
 
 public class B extends A{
-    static {
-        System.out.println(" b class static block");
+    int a=100;
+    int b=200;
+    int c=300;
+    int d=400;
+
+
+    void method1(){
+        int a=10;
+        int b=20;
+        int c=30;
+        int d=40;
+//        we can access the instance method to super keyword
+        System.out.println(super.a);
+        System.out.println(super.b);
+        System.out.println(super.c);
+        System.out.println(super.d);
     }
-    {
-        System.out.println("b class instance block");
-    }
-    public B(){
-        System.out.println("b class constructor");
-    }
+
+
     public static void main(String[] args) {
-
-//        what will be the order of execution
-
-//        A a1=new A();
-//a class static block
-// b class static block
-//a class instance block
-//a class constructor
-
         B b1=new B();
-
-
-
-
+        b1.method1();
     }
 }
